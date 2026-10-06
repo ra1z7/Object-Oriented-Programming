@@ -16,4 +16,7 @@ public class Product {
     public Long getId() { return id; }
     public String getName() { return name; }
     public double getPrice() { return price; }
+
+    // NOTE: If I forget to implement any getters,
+    // then that property will be skipped by Jackson without any error
 }
